@@ -148,4 +148,123 @@ form button {
 
 form button:hover {
     background-color: #2980b9;
+
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: rgb(56, 120, 173);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #3f79ae;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: rgb(41, 89, 140);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #f2f3f4;
+    color: rgb(47, 98, 129);
+}
+
+.event-box {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgb(55, 98, 167);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.promo {
+    border-left: 6px solid rgb(0, 102, 255);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: rgb(51, 103, 145);
+    margin-top: 40px;
+}
+
